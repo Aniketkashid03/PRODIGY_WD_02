@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: black;
+}
+
+.stopwatch-outer-container {
+  text-align: center;
+}
+
+.stopwatch-container {
+  display: inline-block;
+  background-color: yellowgreen; /* Background color for the outer box */
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.display {
+  background-color: #fff; /* Background color for the stopwatch display area */
+  border: 10px solid #ccc;
+  padding: 20px;
+  border-radius: 10px;
+  transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+.display:hover {
+  background-color: #ff6666; /* Red color on hover */
+}
+
+.stopwatch {
+  text-align: center;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 0 6px;
+  font-size: 1em;
+}
+
+button:hover{
+    background-color: orange; /* Red color on hover */
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
